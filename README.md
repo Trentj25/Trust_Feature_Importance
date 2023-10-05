@@ -13,4 +13,11 @@ Based on the multi-jurisdictional trust and adherence data collect across 11 cou
 
 X Features: include device and location meta-data (primarily sub-national region); collection phase (Waves I and II),  self-reported data on age, level of trust in community, health care providers (HCP), political communications, past and future adherence to public health measures, language selection, COVID-19 information source (past and future) and education level.
 
+Uses Catboost's classifier and get_feature_importance function
+
 Seperate models are built for each country within the survey (11 countries total).  Accuracy scores also included. 
+
+y variables converted to binary, previous scale value versions had limited fit and uneven distribution of errors. 
+
+
+
